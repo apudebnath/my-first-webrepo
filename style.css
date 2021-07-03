@@ -1,0 +1,43 @@
+body {
+    background-color: aquamarine;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+p {
+    background: aqua;
+    padding: 20px 20px;
+    margin: 20px 200px;
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+}
+
+div>img {
+    height: 30%;
+    width: 30%;
+    object-fit: cover;
+    margin: 50px 470px;
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+}
+
+form {
+    padding: 50px;
+    border: 5px solid rgb(235, 213, 16);
+    border-radius: 10px;
+    margin: 20px 400px;
+    text-align: left;
+}
+
+form>h2 {
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 20px;
+}
